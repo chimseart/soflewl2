@@ -61,11 +61,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp GRAVE  &kp F1      &kp F2      &kp F3     &kp F4      &kp F5                                  &kp F6           &kp F7    &kp F8         &kp F9     &kp F10   &kp F11
-&kp CAPS   &kp N7      &kp UP      &kp N6     &kp N4      &kp BSPC                                &kp INS          &kp HOME  &kp PAGE_UP    &kp N9     &kp N0    &kp F12
-&trans     &kp LEFT    &kp DOWN    &kp RIGHT  &kp DLLR    &kp ENTER                               &kp CARET        &kp END   &kp PAGE_DOWN  &kp LBKT   &kp RBKT  &kp SEMI
-&trans     &kp C_PREV  &kp C_PREV  &kp C_PP   &kp C_NEXT  &kp DEL        &trans           &trans  &kp PRINTSCREEN  &kp SLCK  &kp SEMI       &kp COLON  &kp BSLH  &trans
-                       &trans      &trans     &trans      &kp C_BRI_INC  &kp C_BRI_DEC    &trans  &trans           &trans    &trans         &trans
+&kp GRAVE  &kp F1      &kp F2      &kp F3     &kp F4           &kp F5                                  &kp F6           &kp F7    &kp F8         &kp F9     &kp F10   &kp F11
+&kp CAPS   &kp N7      &kp UP      &kp N6     &kp PRINTSCREEN  &kp BSPC                                &kp INS          &kp HOME  &kp PAGE_UP    &kp N9     &kp N0    &kp F12
+&trans     &kp LEFT    &kp DOWN    &kp RIGHT  &kp DLLR         &kp ENTER                               &kp CARET        &kp END   &kp PAGE_DOWN  &kp LBKT   &kp RBKT  &kp SEMI
+&trans     &kp C_PREV  &kp C_PREV  &kp C_PP   &kp C_NEXT       &kp DEL        &trans           &trans  &kp PRINTSCREEN  &kp SLCK  &kp SEMI       &kp COLON  &kp BSLH  &trans
+                       &trans      &trans     &trans           &kp C_BRI_INC  &kp C_BRI_DEC    &trans  &trans           &trans    &trans         &trans
             >;
 
             sensor-bindings =
